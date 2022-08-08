@@ -1,0 +1,210 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+@font-face {
+  font-family: 'Noto Sans TC';
+  src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Thin.woff2);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+/*   font-family: 'Noto Sans TC'; /* 無效? */
+}
+
+.wrap {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.ffamily-NST {
+  font-family: 'Noto Sans TC';
+}
+
+h1 {
+  font-size: 80px;
+  line-height: 95px;
+  font-weight: 600;  /* 無效 */
+}
+
+.mb-24 {
+  margin-bottom: 24px;
+}
+
+.photo {
+  width: 324px;
+}
+
+.mb-48 {
+  margin-bottom: 48px;
+}
+
+h2 {
+  display: flex; 
+  align-items: center;
+}
+
+.topic {
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: medium; /* 無效 */
+}
+
+.English-topic {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 600; /* 無效 */
+  color: #A00404;
+  margin-left: 16px;
+}
+
+.mb-8 {
+  margin-bottom: 8px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.fs-24 {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.mb-72 {
+  margin-bottom: 72px;
+}
+
+.skill {
+  background-color: #415165;
+  /*  color: white; 為什麼 文字skill 沒吃到白色？  */
+  padding-top: 24px;
+  padding-bottom: 52px;
+}
+
+.ml-522 {
+  margin-left: 522px;
+}
+
+.w-996 {
+  width: 996px;
+  margin: 0 auto;
+}
+
+.skill-content {
+  border-left: 1px solid #96A9C4;
+  margin-top: 40.05px;
+}
+
+.skill div {
+  margin-left: 492px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.work-content {
+  border-left: 1px solid #96A9C4;
+  margin-top: 40.05px;
+  margin-left: 24px;
+}
+
+.pl-24 {
+  padding-left: 24px;
+}
+
+.hexschool {
+  width: 89.5px;
+  margin-bottom: 8.15px;
+}
+
+.simtree {
+  width: 72px;
+}
+
+.mb-32 {
+  margin-bottom: 32px;
+}
+
+.w-642 {
+  width: 642px;
+}
+
+.fs-20 {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.footer {
+  background-color: #415165;
+  text-align: center;
+  padding-top: 24px;
+  padding-bottom: 48px;
+}
+
+.c-white {
+  color: white;
+}
+
+.w-1200 {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.mt-32 {
+  margin-top: 32px;
+}
+
+.ig-pic {
+  margin-left: 24px;
+  margin-right: 24px;
+}
