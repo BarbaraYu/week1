@@ -50,6 +50,7 @@ table {
 
 body {
   font-size: 24px;
+  line-height: 36px;
 }
 
 .container {
@@ -63,4 +64,106 @@ body {
   padding-top: 40px;
   padding-bottom: 24px;
   border-bottom: 2px solid #000;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.Joanne-photo {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.pb-8 {
+  padding-bottom: 8px;
+}
+
+.border-black {
+  border-bottom: 1px solid #000;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.lh-48 {
+  line-height: 48px;
+}
+
+.mb-24 {
+  margin-bottom: 24px;
+}
+
+.mb-64 {
+  margin-bottom: 64px;
+}
+
+/* .mb-40 {
+  margin-bottom: 40px;
+} */
+
+.text-center {
+  text-align: center;
+}
+
+.background {
+  padding-top: 24px;
+  background-color: #415165;
+}
+
+.w-996 {
+  width: 996px;
+  margin: 0 auto;
+}
+
+.skill-list {
+  width: 200px;
+  margin: 0 auto;
+}
+
+.mb-8 {
+  margin-bottom: 8px;
+}
+
+.p-left-24 {
+  padding-left: 24px;
+}
+
+.border-left {
+  border-left: 1px solid #96A9C4;
+
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.pb-40 {
+  padding-bottom: 40px;
+}
+
+.work-p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.width-642 {
+  width: 642px;
+}
+
+.work-list {
+  margin-left: 24px;
+  margin-bottom: 80px;
+}
+
+.contact-list {
+  width: 600px;
+  margin: 0 auto;
+}
+
+footer {
+  text-align: center;
+  padding-top: 24px;
+  background-color: #415165;
 }
